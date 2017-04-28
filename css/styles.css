@@ -26,7 +26,7 @@
 body {
 font-family: 'Raleway', sans-serif;
 }
-#form-info, .jumbotron {
+#form-info, .unvis,  .jumbotron {
   display: none;
 }
 .main-page-content{
