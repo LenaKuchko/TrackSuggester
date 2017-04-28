@@ -26,6 +26,14 @@
 body {
 font-family: 'Raleway', sans-serif;
 }
-#form-info {
+#form-info, .jumbotron {
   display: none;
+}
+.main-page-content{
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+.jumbotron {
+  background-color: pink;
+  margin-top: 10px;
 }

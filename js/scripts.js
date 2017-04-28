@@ -1,7 +1,9 @@
 $(function() {
   $("#start-btn").click(function () {
     $("#form-info").show();
+    $(".jumbotron").show();
     $(".main-header").hide();
+    $("#main-page").hide();
   });
   $("#form-info").submit(function (event) {
     event.preventDefault();
