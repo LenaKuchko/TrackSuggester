@@ -13,7 +13,7 @@
   margin-top: 165px;
   font-size: 65px;
 }
-.main-header button {
+#result-btn, .main-header button {
   color: pink;
   background-color: black;
   margin-top: 25px;
@@ -23,8 +23,12 @@
   box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   color: pink;
 }
+#result-btn:hover {
+  box-shadow: 5px 0px 40px rgba(255, 192, 203, .6);
+}
 body {
 font-family: 'Raleway', sans-serif;
+background-color: rgb(252, 252, 252);
 }
 #form-info, .unvis,  .jumbotron {
   display: none;
@@ -33,7 +37,21 @@ font-family: 'Raleway', sans-serif;
   font-size: 16px;
   padding-bottom: 15px;
 }
+.questions h2{
+  font-size: 30px;
+}
 .jumbotron {
   background-color: pink;
   margin-top: 10px;
 }
+.jumbotron:hover {
+  box-shadow: 15px 0px 40px rgba(255, 153, 170, .2);
+}
+.form-control:hover {
+  box-shadow: 15px 0px 40px rgba(255, 153, 170, .2);
+}
+
+/* QUESTION:  */
+/*.form-control option:focus {
+  box-shadow: 15px 0px 40px rgba(255, 153, 170, .2);
+}*/

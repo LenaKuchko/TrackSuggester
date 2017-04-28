@@ -1,17 +1,16 @@
 $(function() {
   $("#start-btn").click(function () {
-    // $("#form-info").show();
-    // $(".jumbotron").show();
-
+    $("#form-info").show();
+    $(".jumbotron").show();
     $("#anim").fadeTo("slow" , 0.0, function(){});
     setTimeout (function () {
       $("#anim").hide();
     }, 500);
-
-    $("#anim2").fadeIn("slow", function(){});
-    setTimeout (function () {
-      $("#anim2").show();
-    }, 500);
+// QUESTION: 
+    // $("#anim2").fadeIn("slow", function(){});
+    // setTimeout (function () {
+    //   $("#anim2").show();
+    // }, 500);
   });
   $("#form-info").submit(function (event) {
     event.preventDefault();
