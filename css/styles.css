@@ -1,0 +1,31 @@
+.back {
+  background-color: pink;
+  height: 400px;
+}
+.menu {
+  height: 100px;
+}
+.main-header {
+  margin-top: 0;
+  text-align: center;
+}
+.main-header h1 {
+  margin-top: 165px;
+  font-size: 65px;
+}
+.main-header button {
+  color: pink;
+  background-color: black;
+  margin-top: 25px;
+  font-size: 20px;
+}
+.main-header button:hover {
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  color: pink;
+}
+body {
+font-family: 'Raleway', sans-serif;
+}
+#form-info {
+  display: none;
+}
