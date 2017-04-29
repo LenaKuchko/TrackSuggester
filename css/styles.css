@@ -2,6 +2,10 @@
   background-color: pink;
   height: 400px;
 }
+.header {
+  background-color: rgb(252, 252, 252);
+  height: 50px;
+}
 .menu {
   height: 100px;
 }
@@ -33,7 +37,7 @@ background-color: rgb(252, 252, 252);
 #form-info, .unvis,  .jumbotron {
   display: none;
 }
-.main-page-content{
+.main-page-content, .unvis{
   font-size: 16px;
   padding-bottom: 15px;
 }
@@ -47,8 +51,19 @@ background-color: rgb(252, 252, 252);
 .jumbotron:hover {
   box-shadow: 15px 0px 40px rgba(255, 153, 170, .2);
 }
-.form-control:hover {
+/*.form-control:hover {
   box-shadow: 15px 0px 40px rgba(255, 153, 170, .2);
+}*/
+.form-control:focus {
+  border: 1px solid pink;
+  box-shadow: rgba(175, 30, 97, 0.68);
+}
+.form-control:hover {
+  border: 1px solid pink;
+  box-shadow: rgba(175, 30, 97, 0.68);
+}
+.page-header {
+  border-bottom: 2px solid pink;
 }
 
 /* QUESTION:  */
