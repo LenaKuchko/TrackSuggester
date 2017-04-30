@@ -60,7 +60,11 @@ $(function() {
     } else if (quest3=="css") {
       result = "Css";
       $("#css").show();
-    } else alert ("Sorry, no matches");
+    }else {
+      alert ("Sorry, no matches");
+      $("#form-info").show();
+      return;
+    }
 
     $(".questions").remove();
     $(".jumbotron").append("<h2>Congradulations! "+name+" Your track is: </h2> <h1>"+ result+"</h1>");
